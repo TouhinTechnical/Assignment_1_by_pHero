@@ -1,0 +1,112 @@
+/* ====================== 
+    Reset css 
+=========================*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Yeseva One', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    background: #e5e5e5;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.h-500{
+    height: 500px;
+}
+.btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background: #861b03;
+    padding: 12px;
+    display: inline-block;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 19px;
+    transition: .3s ease-in;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    -ms-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+}
+.btn:hover{
+    background: transparent;
+    color: #861b03;
+    border: 1px solid #861b03;
+}
+/* ===================== 
+    Header part Start 
+========================*/
+.h-text-titleContent {
+    margin-top: 140px;
+    border-left: 4px solid #f588ff;
+    border-image-slice: 1;
+    height: auto;
+}
+.h-text-content {
+    margin-left: 70px;
+}
+.h-text-title,
+.h-text-subtitle {
+    text-transform: capitalize;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.h-text-subtitle{
+    color: #ff7b5a;
+}
+.h-text-para{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-top: 28px;
+    color: #3e3e3e;
+}
+.short-text{
+    font-family: 'Poppins', sans-serif;
+    color: #434343;
+    margin-top: 19px;
+    display: inline-block;
+    transition: .4s ease-in;
+    -webkit-transition: .4s ease-in;
+    -moz-transition: .4s ease-in;
+    -ms-transition: .4s ease-in;
+    -o-transition: .4s ease-in;
+}
+.short-text:hover{
+    text-decoration: underline;
+    color: #ff7b5a;
+}
+.h-img-content {
+    width: 424px;
+    height: 630px;
+    margin-left: 130px;
+}
+/* ===================== 
+    Header part End 
+========================*/
