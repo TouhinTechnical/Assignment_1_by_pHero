@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+:focus{
+    outline: 0;
+}
 body{
     font-family: 'Yeseva One', cursive;
     font-size: 16px;
@@ -13,16 +16,23 @@ body{
     background: #e5e5e5;
 }
 .container{
-    width: 1140px;
+    width: 1170px;
     margin: 0 auto;
 }
 .row{
     margin-left: -15px;
     margin-right: -15px;
 }
+.col-3{
+    width: 33.33%;
+    float: left;
+}
 .col-6{
     width: 50%;
     float: left;
+}
+.clearfix{
+    overflow: hidden;
 }
 img{
     width: 100%;
@@ -30,8 +40,8 @@ img{
 a{
     text-decoration: none;
 }
-.h-500{
-    height: 500px;
+.h-664{
+    height: 664px;
 }
 .btn {
     font-family: 'Poppins', sans-serif;
@@ -109,4 +119,59 @@ a{
 }
 /* ===================== 
     Header part End 
+========================*/
+
+/* ===================== 
+    About part start 
+========================*/
+.about-section{
+    padding: 15px 0 40px 0;
+}
+.about-heading {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #13103a;
+    margin-bottom: 40px;
+}
+.about-heading span{
+    color: #ff7b5a;
+}
+.about-contentBox {
+    width: 320px;
+    height: 376px;
+    margin-left: 20px;
+    border-radius: 26px;
+    padding: 45px 13px 45px 32px;
+}
+.a-boxBg1{
+    background: rgba(79, 157, 166, 0.1);
+}
+.a-boxBg2{
+    background: rgba(255, 89, 89,0.1);
+}
+.a-boxBg3{
+    background: #fff4d6;
+}
+.a-itemImg {
+    width: 141px;
+    height: 141px;
+}
+.a-itemContent-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.a-itemContent-para {
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+    color: #424242;
+}
+/* ===================== 
+    About part end 
 ========================*/
